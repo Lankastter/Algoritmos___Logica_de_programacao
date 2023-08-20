@@ -1,0 +1,20 @@
+// Criando Tabuada
+
+início {
+    
+    inteiro: t;
+    inteiro: n;
+    
+    leia("Tabuada do .... ", t);
+    
+    para n de 1 até 10 passo 1 {
+       escreva(t + " x " + n + " = " + (t * n));
+    }
+     
+     n = 1;
+     enquanto(n <= 10){
+       escreva(t + " x " + n + " = " + (t * n));
+       n = n + 1;
+     }
+    
+}

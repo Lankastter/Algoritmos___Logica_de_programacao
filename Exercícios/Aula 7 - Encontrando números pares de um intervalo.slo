@@ -1,0 +1,31 @@
+//Mostre os números pares ou impares em um intervalo de MIN e MAX
+// (n % 2 == 0) representa uma formula para encontrar os números pares
+//            -> "%" dessa formula representa a divisão "/" porém....
+//                -> pórem não queremos o VALOR da divisão, e sim o RESTO da divisão
+// (n % 2 <> 0) subistitua por essa fórmula caso queira encontrar os números pares
+início {
+    inteiro: min;
+    inteiro: max;
+    // "n" representa o valor atual, o "n" pecorre cada número entre o Min e o Max  
+    inteiro: n;
+    
+    leia ("Valor Mínimo: ", min);
+    leia ("Valor Máximo: ", max);
+    
+    n = min;
+    
+    // "equanto" trabaalha com uma estrutura de repetição, até a condição se torna verdadeira
+    enquanto(n <= max){
+       
+        se  (n % 2 == 0){
+             escreva(n);      
+        }
+         
+        n = n + 1;   
+       
+    } 
+    
+    
+    
+    
+}

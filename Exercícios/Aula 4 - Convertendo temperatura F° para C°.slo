@@ -1,0 +1,12 @@
+início {
+    //Convertendo temperatura fahrenheit para Celsius
+    real: tc;
+    real: tf;
+    leia("Qual é a temperatura em fahrenheit?", tf);
+    
+    tc = (tf - 32)/9 * 5;
+    
+    escreva ("A temperatura é: ", tc, "C°.");
+    
+    
+}

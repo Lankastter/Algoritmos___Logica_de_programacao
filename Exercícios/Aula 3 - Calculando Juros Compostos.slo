@@ -1,0 +1,22 @@
+início {
+   //Calculando Juros Compostos
+   
+    //valor futuro (Juros)
+    real: fv;
+    //valor atual (capital)
+    real: pv;
+    // taxa de juros;
+    real: i;
+    // tempo
+    real: n;
+    
+    leia("Valor atual:", pv);
+    leia("Taxa de juros:", i);
+    leia("tempo:", n);
+    
+    //calculando formula do juros composto
+    //para calcular potenciação utilizar comando "pot"
+    fv = pv * pot(1 + i/100, n);
+    
+    escreva("O Juros é de: " + fv);   
+}

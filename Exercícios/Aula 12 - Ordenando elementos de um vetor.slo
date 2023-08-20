@@ -1,0 +1,23 @@
+início {
+    inteiro: valores[5];
+    inteiro: x;
+    
+    valores[0] = 4;
+    valores[1] = 6;
+    valores[2] = 1;
+    valores[3] = 2;
+    valores[4] = 0;
+ 
+ // usando o comando    
+    para x de 0 até 4 passo 1 {
+        escreva(valores[x]);
+    }
+
+//Também pode usar o comando ENQUANTO 
+    x = 0;
+    enquanto(x < 5){
+     escreva(valores[x]);
+     x = x + 1;
+    }
+    
+ }    

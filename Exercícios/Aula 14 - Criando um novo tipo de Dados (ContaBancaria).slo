@@ -1,0 +1,18 @@
+tipo conta{
+    inteiro: numero;
+    caractere: titular;
+    real: saldo;
+}
+
+início {
+     conta: c;
+     
+     c.numero = 123;
+     c.titular = "Pedro Alves";
+     c.saldo = 1000; 
+     
+// fazendo um deposito de 200,00
+     c.saldo = c.saldo + 200;
+     
+        escreva(c);               
+}

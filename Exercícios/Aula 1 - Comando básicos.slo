@@ -1,0 +1,28 @@
+início {
+    
+    //Criando váriaveis(unidade básica de armazenamento). 
+      caractere: nome;
+      inteiro: idade;
+      real: altura;
+      caractere: info;
+     
+     //colocando valor na váriavel(Usa-se um valor de atribuição "="). 
+        // nome = "Pedro!";
+         
+         idade = 30;
+         altura = 1.85; 
+         info = nome + ", " + idade + ", " + altura;
+       
+    //comandos do algoritimo
+   
+    leia("Digite o nome", nome);
+    escreva(nome);
+    escreva(idade);
+    escreva(altura);
+    escreva(nome + ", " + idade + ", " + altura);
+    
+    
+   
+     
+    
+}

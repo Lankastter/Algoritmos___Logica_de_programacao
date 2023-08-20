@@ -1,0 +1,13 @@
+// Exercício de chamada Recursiva (Função que chama ela mesma)
+// Fatorial: n! n*(n-1)!       Obs: 0! = 1
+// Toda função recursiva deve ter um critério de parada.
+início {
+    escreva(fat(4));
+}
+
+função fat(inteiro:n) -> inteiro {
+       se (n==0){
+           retorne 1;
+       }
+       retorne n * fat(n-1); 
+}

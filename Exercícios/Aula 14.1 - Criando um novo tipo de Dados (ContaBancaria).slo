@@ -1,0 +1,21 @@
+tipo conta{
+    inteiro: numero;
+    caractere: titular;
+    real: saldo;
+}
+
+//UTILIZANDO Contas com ARREY/VETOR
+início {
+     conta: contas[2];
+     
+     contas[0].numero = 123;
+     contas[0].titular = "Pedro Alves";
+     contas[0].saldo = 1000; 
+     
+     contas[1].numero = 689;
+     contas[1].titular = "João Vitor";
+     contas[1].saldo = 2500; 
+          
+        escreva(contas); 
+        escreva(contas[0].titular + ": " + contas[0].saldo);              
+}
